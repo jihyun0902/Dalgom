@@ -95,15 +95,15 @@ body {
 }
 
 #gnb li:nth-child(1):hover {
-    background: url(../_images/character_1.png) no-repeat;
+    background: url(../images/character_1.png) no-repeat;
 }
 
 #gnb li:nth-child(2):hover {
-    background: url(../_images/character_2.png) no-repeat;
+    background: url(../images/character_2.png) no-repeat;
 }
 
 #gnb li:nth-child(3):hover {
-    background: url(../_images/character_3.png) no-repeat;
+    background: url(../images/character_3.png) no-repeat;
 }
 
 /*about*/
@@ -167,7 +167,7 @@ body {
 
 /*mat*/
 #mat {
-    background: url(../_images/bg1.png) no-repeat;
+    background: url(../images/bg1.png) no-repeat;
 }
 
 .mat_inner {
@@ -203,7 +203,7 @@ body {
 
 /*logo*/
 #logo {
-    background: #eee6dc url(../_images/bg2.png) no-repeat;
+    background: #eee6dc url(../images/bg2.png) no-repeat;
 }
 
 .logo_inner {
@@ -238,7 +238,7 @@ body {
 
 .logo_inner ul li p {
     position: absolute;
-    top: 50%;
+    top: 250px;
     left: 50%;
     transform: translateX(-50%);
     display: none;
@@ -252,11 +252,18 @@ body {
     display: block;
 }
 
-.logo_font p,
+.logo_font p {
+    position: absolute;
+    top: 50%;
+    left: 200px;
+    transform: translateX(-50%);
+    display: none;
+}
+
 .web_font p {
     position: absolute;
     top: 50%;
-    left: 50%;
+    right: -230px;
     transform: translateX(-50%);
     display: none;
 }
@@ -271,7 +278,7 @@ body {
 
 /*character*/
 #character {
-    background: url(../_images/bg3.png) no-repeat;
+    background: url(../images/bg3.png) no-repeat;
 }
 
 .character_inner {
@@ -332,7 +339,7 @@ body {
 
 /*footer*/
 #footer {
-    background: #eee6dc url(../_images/footer_bg.png) no-repeat;
+    background: #eee6dc url(../images/footer_bg.png) no-repeat;
 }
 
 .footer_inner {

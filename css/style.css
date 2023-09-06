@@ -95,15 +95,15 @@ body {
 }
 
 #gnb li:nth-child(1):hover {
-    background: url(../_images/character_1.png) no-repeat;
+    background: url(../images/character_1.png) no-repeat;
 }
 
 #gnb li:nth-child(2):hover {
-    background: url(../_images/character_2.png) no-repeat;
+    background: url(../images/character_2.png) no-repeat;
 }
 
 #gnb li:nth-child(3):hover {
-    background: url(../_images/character_3.png) no-repeat;
+    background: url(../images/character_3.png) no-repeat;
 }
 
 /*main_banner*/
@@ -188,7 +188,7 @@ body {
 
 /*footer*/
 #footer {
-    background: url(../_images/footer_bg.png) no-repeat;
+    background: url(../images/footer_bg.png) no-repeat;
 }
 
 .footer_inner {
