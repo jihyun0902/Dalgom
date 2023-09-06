@@ -1,0 +1,366 @@
+@charset "utf-8";
+
+/*
+    넷마블체
+    font-family: 'netmarble';
+    고령딸기체
+    @font-face {
+    font-family: 'Goryeong Strawberry';
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #3a3330;
+}
+
+img,
+video,
+iframe {
+    vertical-align: middle;
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'netmarble';
+    font-size: 18px;
+    line-height: 28px;
+    color: #3a3330;
+    background-color: #f9f3d9;
+}
+
+
+/*header*/
+#header {
+    background-color: #f4db5d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    width: 100%;
+}
+
+/*top*/
+.top {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.top ul {
+    display: flex;
+    justify-content: right;
+    padding: 5px 0;
+}
+
+.top ul li {
+    padding: 0 30px;
+}
+
+/*header_inner*/
+.header_inner {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 20px;
+}
+
+#gnb {
+    display: flex;
+}
+
+#gnb li {
+    padding: 40px 40px;
+    text-align: center;
+}
+
+#gnb li a {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+#gnb li:nth-child(1):hover {
+    background: url(../_images/character_1.png) no-repeat;
+}
+
+#gnb li:nth-child(2):hover {
+    background: url(../_images/character_2.png) no-repeat;
+}
+
+#gnb li:nth-child(3):hover {
+    background: url(../_images/character_3.png) no-repeat;
+}
+
+/*about*/
+#about {
+    width: 1320px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+#about .ab_text {
+    margin-top: 194px;
+    padding: 100px 0;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+}
+
+#about .ab_text span {
+    font-family: 'Goryeong Strawberry';
+    font-size: 40px;
+    color: #f4db5d;
+}
+
+#about ul {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+#about ul li {
+    position: relative;
+}
+
+#about ul li p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#about ul li:hover p {
+    display: block;
+    cursor: pointer;
+}
+
+#about .BM_BV {
+    font-size: 25px;
+    line-height: 50px;
+    padding: 20px;
+    padding-left: 100px;
+    text-align: left;
+}
+
+#about .BM_BV span {
+    color: #f15d22;
+    font-size: 35px;
+    line-height: 40px;
+    font-family: 'Goryeong Strawberry';
+    padding: 10px;
+}
+
+/*mat*/
+#mat {
+    background: url(../_images/bg1.png) no-repeat;
+}
+
+.mat_inner {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.mat_inner h1 {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.mat_inner ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mat_inner ul li p {
+    width: 65%;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.mat_inner ul li:nth-child(2) {
+    padding: 50px 0;
+}
+
+.mat_inner ul li:nth-child(2) p {
+    text-align: right;
+}
+
+/*logo*/
+#logo {
+    background: #eee6dc url(../_images/bg2.png) no-repeat;
+}
+
+.logo_inner {
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.logo_inner>h1 {
+    padding-bottom: 50px;
+    padding-top: 150px;
+}
+
+.logo_inner ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.font {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.logo_inner>p {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.logo_inner ul li p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.logo_inner ul li:nth-child(1):hover .hover1 {
+    display: block;
+}
+
+.logo_inner ul li:nth-child(2):hover .hover2 {
+    display: block;
+}
+
+.logo_font p,
+.web_font p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+}
+
+.logo_font:hover .hover3 {
+    display: block;
+}
+
+.web_font:hover .hover4 {
+    display: block;
+}
+
+/*character*/
+#character {
+    background: url(../_images/bg3.png) no-repeat;
+}
+
+.character_inner {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.character_inner>h1 {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.main_ch,
+.sub_ch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.main_ch_text {
+    width: 750px;
+    height: 276px;
+    background-color: #f9f3d9;
+    border-radius: 0 200px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.sub_ch_text {
+    width: 750px;
+    height: 276px;
+    background-color: #f9f3d9;
+    border-radius: 200px 0;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.main_ch_text h1,
+.sub_ch_text h1 {
+    padding-bottom: 20px;
+}
+
+.main_ch_text p {
+    text-align: right;
+}
+
+.sub_ch_text h1 {
+    text-align: right;
+}
+
+.main_ch_text p,
+.sub_ch_text p {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+/*footer*/
+#footer {
+    background: #eee6dc url(../_images/footer_bg.png) no-repeat;
+}
+
+.footer_inner {
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.footer_inner ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_inner ul li {
+    padding: 30px 20px;
+    color: #f9f3d9;
+}
+
+/*btn*/
+.top_btn {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.instar_btn {
+    position: fixed;
+    right: 50px;
+    bottom: 110px;
+}
